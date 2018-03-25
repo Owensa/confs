@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-import pkg_keyring_kali
+import keyring
 
 def bootstrap():
-    pkg_archive_kali.fetch() 
+    keyring.fetch() 
 
 if __name__ == '__main__':
     bootstrap()         
